@@ -18,22 +18,6 @@ FIS = addmf(FIS,'output',1,'Low','trimf',[-1 0 1]);
 FIS = addmf(FIS,'output',1,'Medium','trapmf',[0 1 3 4]);
 FIS = addmf(FIS,'output',1,'High','trimf',[4 5 6]);
 
-{[1 1];
- [1 2];
- [1 3];
- [1 4];
- [1 5];
- [2 5];
- [2 4];
- [2 3];
- [2 2];
- [2 1];
- [3 1];
- [3 2];
- [3 3];
- [3 4];
- [3 5]}
-[3;3;2;2;2;1;1;2;2;2;3;2;2;2;1]
 ruleList = [1 1 3 1 1;   % Rule 1
             1 2 3 1 1;   % Rule 2
             1 3 2 1 1;   % Rule 3
